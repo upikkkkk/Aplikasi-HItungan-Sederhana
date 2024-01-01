@@ -1,6 +1,10 @@
-public class Kali extends Hitung{
-    public Kali(double angka1, double angka2) {
-        super(angka1, angka2);
+public class Kali extends Hitung implements Operasi{
+    private double angka1;
+    private double angka2;
+
+    public Kali() {
+        this.angka1 = 0;
+        this.angka2 = 0;
     }
 
     @Override
